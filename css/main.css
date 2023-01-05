@@ -1,0 +1,19 @@
+/***** BASE STYLES *****/
+body {
+    font-family: montserrat;
+    font-size: 38px;
+    color: white;
+    text-transform: uppercase;
+  }
+
+  #vision-board {
+
+    width: 1200px;
+    height: 850px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    overflow : auto;
+    background: url('/img/background.png');
+    background-size: cover;
+}
+
