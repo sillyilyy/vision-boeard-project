@@ -1,7 +1,7 @@
 /***** BASE STYLES *****/
 body {
-    font-family: montserrat;
-    font-size: 38px;
+    font-family: 'montserrat';
+    font-size: 20px;
     background: #FFFFFF;
     text-transform: uppercase;
   }
@@ -19,8 +19,75 @@ body {
 
 .block {
 
-    outline: 1px dashed darkgreen;
+   /***** outline: 1px dashed darkgreen;*****/
     float : left;
     box-sizing : border-box;
     width: 400px;
+}
+
+.small-block {
+    height: 210px;
+    padding: 20px 40px;
+}
+
+.large-block {
+
+    height: 430px;
+    padding: 70px 40px;
+}
+
+.center {
+
+    text-align: center;
+}
+
+.right {
+
+    text-align: right;
+
+}
+
+.block-seven-eight {
+
+    padding-top: 40px;
+}
+
+/***** Block background colors *****/
+
+.white-background {
+
+    background: #ffffff;
+}
+
+.dark-background {
+
+    background: #3b3b3b;
+}
+
+/***** Select text styles *****/
+
+.highlight {
+
+    background: #fff44f;
+    font-size: 18px;
+    padding: 2px 10px;
+}
+
+strong {
+
+    font-size: 38px;
+    line-height: 38px;
+    text-transform: none;
+}
+
+.title {
+
+    font-size: 30px;
+    color: #ffffff;
+    /*margin: 10px 0;*/
+}
+
+.year {
+    font-size: 18px;
+    font-family: 'permanent marker';
 }
